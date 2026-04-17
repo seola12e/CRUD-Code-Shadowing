@@ -25,7 +25,7 @@ public class ProductService {
         return new ProductResponse(saved);
     }
 
-    public ProductResponse getProducts(Long id) {
+    public ProductResponse getProduct(Long id) {
         Product product = findProductById(id);
         return new ProductResponse(product);
     }
